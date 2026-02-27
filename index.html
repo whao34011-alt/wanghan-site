@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>王涵大朋友ovo ✨ 专属粉丝站</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 浮动装饰元素 -->
+    <div class="floating-hearts">
+        <div class="heart">💕</div>
+        <div class="heart">✨</div>
+        <div class="heart">🌸</div>
+        <div class="heart">💖</div>
+        <div class="heart">🎀</div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🌸</span>
+                <span class="logo-text">王涵大朋友</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">首页</a></li>
+                <li><a href="#about">关于她</a></li>
+                <li><a href="#videos">作品</a></li>
+                <li><a href="#gallery">相册</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页 Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="王涵大朋友ovo">王涵大朋友ovo</h1>
+                <p class="subtitle">✨ 演员 · 短视频创作者 ✨</p>
+                <p class="desc">上海视觉艺术学院 · 清新可爱 · 文艺情感</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn-primary">了解更多</a>
+                    <a href="https://space.bilibili.com/382211078" target="_blank" class="btn-secondary">
+                        <i class="fab fa-bilibili"></i> B站主页
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-bg"></div>
+                    <div class="profile-placeholder">
+                        <img src="https://i2.hdslb.com/bfs/face/2c451b60bfa9a8a87bb2d67c80cd1d0c5881e2da.jpg" referrerpolicy="no-referrer" alt="王涵" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-number">16万</span>
+                            <span class="stat-label">粉丝</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">65</span>
+                            <span class="stat-label">视频</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">477万</span>
+                            <span class="stat-label">播放</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>向下滚动</p>
+        </div>
+    </section>
+
+    <!-- 关于她 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">💝</span>
+                关于王涵
+                <span class="title-icon">💝</span>
+            </h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🎭</div>
+                    <h3>演员身份</h3>
+                    <p>毕业于上海视觉艺术学院，拥有专业的表演功底，bilibili官方认证演员。</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">📱</div>
+                    <h3>短视频创作者</h3>
+                    <p>以文艺情感类短视频走红，视频风格清新治愈，深受年轻观众喜爱。</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">💕</div>
+                    <h3>个人风格</h3>
+                    <p>内容多为情感语录、可爱日常，文案走心，画面唯美，充满少女感。</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🌟</div>
+                    <h3>数据成绩</h3>
+                    <p>B站粉丝16万+，累计获赞34.6万，视频播放量突破477万。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示 -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">🎬</span>
+                精选作品
+                <span class="title-icon">🎬</span>
+            </h2>
+            <div class="videos-grid" id="videosGrid">
+                <!-- 视频卡片将通过JS动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 相册 -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">📸</span>
+                精彩瞬间
+                <span class="title-icon">📸</span>
+            </h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- 图片将通过JS动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🌸</span>
+                    <span>王涵大朋友ovo粉丝站</span>
+                </div>
+                <p class="footer-text">本网站为粉丝自发建立，非官方网站</p>
+                <div class="footer-links">
+                    <a href="https://space.bilibili.com/382211078" target="_blank">
+                        <i class="fab fa-bilibili"></i> Bilibili
+                    </a>
+                </div>
+                <p class="copyright">Made with 💕 by fans</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/static.js"></script>
+</body>
+</html>
